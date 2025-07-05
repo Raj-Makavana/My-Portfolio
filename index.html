@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" ,initial-scale=1.0>
+  <title>Raj's Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css">
+  <!-- ✅ ADD THIS: Load Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar">
+    <div class="navbarcontainer">
+      <a href="#" class="headerlogo">Dev<span>Portfolio</span></a>
+
+      <div class="navlinks" id="navlinks">
+        <a href="#home" class="navlink">Home</a>
+        <a href="#about" class="navlink">About</a>
+        <a href="./allproject.html" class="navlink">Projects</a>
+        <a href="#skills" class="navlink">Skills</a>
+        <a href="#contact" class="navlink">Contact</a>
+      </div>
+
+      <button class="hambuger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+  </nav>
+
+  <!-- hero section -->
+  <section class="herosection" id="home">
+    <div class="herocontainer">
+
+      <!-- Left: Text -->
+      <div class="herotext">
+        <h1 class="herotitle">Hi, I'm <span>Raj</span></h1>
+        <h2 class="herosubtitle">Developer</h2>
+        <p class="herodescription">
+          I love solving real-world problems with code and bringing ideas to life on the web.
+        </p>
+
+        <div class="herobutton">
+          <a href="./allproject.html" class="cta-btn cta-btn-primary">My Work</a>
+          <a href="#contact" class="cta-btn cta-btn-outline">Contact</a>
+        </div>
+      </div>
+
+      <!-- Right: Image -->
+      <div class="heroimgwrapper">
+        <div class="heroimgbg"></div>
+        <img src="./images/devsimg.png" alt="Developer image" class="heroimg">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="aboutSection" id="about">
+    <div class="aboutContainer">
+      <!-- heading -->
+      <div class="aboutHeader">
+        <h2 class="aboutTitle"> About <span>Me</span></h2>
+        <div class="aboutDivider"></div>
+        <p class="aboutSubText">Get to know the person behind the code</p>
+      </div>
+
+      <!-- content -->
+
+      <div class="aboutContent">
+        <!-- left column -->
+        <div class="aboutText">
+          <h3 class="aboutSubheading">Who I Am</h3>
+          <p>Hi, I’m Raj Makavana — a motivated and curious learner currently pursuing my degree in Information and
+            Communication Technology at DAIICT. I'm deeply passionate about technology, especially how websites are
+            built and how they work behind the scenes.
+            My journey into web development started with simple HTML and CSS projects, but quickly grew into a love for
+            building responsive and interactive websites. I enjoy creating clean, user-friendly interfaces that make a
+            strong impact and solve real problems.
+            I’m currently sharpening my skills in Front-End Development using HTML, CSS, and JavaScript, and also
+            exploring tools like React. At the same time, I’m working on mastering Data Structures and Algorithms using
+            the A2Z DSA Sheet by Striver — because I believe that a good developer writes both beautiful **and**
+            efficient code.
+          </p>
+          <a href="./resume.pdf" class="cta-btn cta-btn-primary aboutCvBtn">Download CV<i class="fas fa-download"></i></a>
+
+        </div>
+
+        <!-- right grid -->
+        <div class="aboutCards">
+          <div class="aboutCard">
+            <i class="fas fa-medal aboutIcon" style="color:#10b981;"></i>
+            <h4>Experience</h4>
+            <p>1 month works</p>
+          </div>
+
+
+          <div class="aboutCard">
+            <i class="fas fa-project-diagram aboutIcon" style="color:#7c3aed;"></i>
+            <h4>Projects</h4>
+            <p>10+ completed</p>
+          </div>
+
+
+          <div class="aboutCard">
+            <i class="fas fa-users aboutIcon" style="color:#f59e0b;"></i>
+            <h4>clients</h4>
+            <p>20+ worldwide</p>
+          </div>
+
+
+          <div class="aboutCard">
+            <i class="fas fa-trophy aboutIcon" style="color:#7c3aed;"></i>
+            <h4>Award</h4>
+            <p>3+ Achievements</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- project section -->
+   <section class="projectSection" id="projects">
+            <div class="projectContainer">
+              <!-- heading -->
+               <div class="projectHeader">
+                <h2 class="projectTitle">My <span>Projects</span></h2> 
+                <div class="projectDivider"></div>
+                <p class="projectSubText">Bringing ideas to life through design and code — here are some of my best works.</p>
+               </div>
+               <!-- project grid -->
+                <div class="projectGrid">
+                  <!-- project-1 -->
+                   <div class="projectCard">
+                    <div class="projectImg">
+                      <img src="./images/dbmsimg.avif" alt="project-1">
+                    </div>
+
+                    <div class="projectTags">
+                    <span class="projectTag tag-purple">PostgreSQL</span>
+                    <span class="projectTag tag-slate">DBMS</span>
+                    </div>
+
+                    <h3 class="projectName">IPL Database Management System</h3>
+                    <p class="projectdescription">A relational database system built using PostgreSQL to manage IPL data like players, teams, match results, and performance statistics. Supports complex queries, normalization, and data integrity for efficient cricket analytics.</p>
+                    <div class="projectLinks">
+                      <a href="https://github.com/Raj-Makavana/Database-management-system"><i class="fab fa-github"></i></a>
+                      <a href="https://github.com/Raj-Makavana/Database-management-system">Live Demo<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                   </div>
+
+                   <!-- project-2 -->
+                   <div class="projectCard">
+                    <div class="projectImg">
+                      <img src="./images/diceimg.avif" alt="project-2">
+                    </div>
+
+                    <div class="projectTags">
+                    <span class="projectTag tag-blue">JavaScript</span>
+                    <span class="projectTag tag-emerald">HTML & CSS</span>
+                    </div>
+
+                    <h3 class="projectName">Dice Game</h3>
+                    <p class="projectdescription">A fun and interactive web-based dice game built using HTML, CSS, and JavaScript. Players roll virtual dice and the winner is determined based on random outcomes using JavaScript logic.</p>
+                    <div class="projectLinks">
+                      <a href="https://raj-makavana.github.io/dice-game/"><i class="fab fa-github"></i></a>
+                      <a href="https://raj-makavana.github.io/dice-game/">Live Demo<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                   </div>
+
+                   <!-- project-3 -->
+                   <div class="projectCard">
+                    <div class="projectImg">
+                      <img src="./images/dsaprojects.avif" alt="project-3">
+                    </div>
+
+                    <div class="projectTags">
+                    <span class="projectTag tag-blue">C++</span>
+                    <span class="projectTag tag-red">Data Structures & Multithreading</span>
+                    </div>
+
+                    <h3 class="projectName">Entry Queue Manager</h3>
+                    <p class="projectdescription">A C++-based stadium gate queue management system that uses arrays, structures, and multithreading to simulate real-time entry. It suggests optimal gates to minimize total wait time, handles dynamic person flow, and supports two different logic versions with realistic assumptions like non-uniform processing time and consensus-based switching.</p>
+                    <div class="projectLinks">
+                      <a href="https://github.com/NaughtyCoder1/theSyntaxSinners/tree/main"><i class="fab fa-github"></i></a>
+                      <a href="https://github.com/NaughtyCoder1/theSyntaxSinners/tree/main">Live Demo<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                   </div>
+                </div>
+
+                <div class="cta-btn projectCta">
+                  <a href="allproject.html" class="cta-btn cta-btn-outline">
+                    View All Projects<i class="fas fa-arrow-right"></i>
+                  </a>
+
+                </div>
+            </div>
+   </section>
+
+   <!-- skill section -->
+    <section class="skillSection" id="skills">
+      <div class="skillContainer">
+        <div class="skillHeader">
+          <h2 class="skillTitle">My<span>Skills</span></h2>
+          <div class="skillDivider"></div>
+          <p class="skillSubText">Skilled in Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, DBMS, and proficient in C++, HTML, CSS, and JavaScript (Intermediate).</p>
+        </div>
+
+        <!-- skill Group-1-->
+
+        <div class="skillsGroup">
+          <h3 class="skillCategory">Development</h3>
+          <div class="skillGrid">
+            <div class="skillCard">
+              <i class="fab fa-html5 skillIcon" style="color:#f97316;"></i>
+              <span>HTML</span>
+              <div class="skillBar">
+                <div style="width:95%;background:orange;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-css3-alt skillIcon" style="color:#3b82f6;"></i>
+              <span>CSS</span>
+              <div class="skillBar">
+                <div style="width:85%;background:blue;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-js skillIcon" style="color:#f97316;"></i>
+              <span>JavaScript</span>
+              <div class="skillBar">
+                <div style="width:70%;background:yellow;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-css3-alt skillIcon" style="color:#34d399;"></i>
+              <span>Flex-Box</span>
+              <div class="skillBar">
+                <div style="width: 75%;background:cyan;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-css3-alt skillIcon" style="color:#00d8ff;"></i>
+              <span>Grid</span>
+              <div class="skillBar">
+                <div style="width:75%;background:green;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-bootstrap skillIcon" style="color:#ef4444;"></i>
+              <span>Bootstrap</span>
+              <div class="skillBar">
+                <div style="width:60%;background:red;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- skill group-2 -->
+        <div class="skillsGroup">
+          <h3 class="skillCategory">Computer Fundamental & Language</h3>
+          <div class="skillGrid">
+            <div class="skillCard">
+              <i class="fab fa-code skillIcon" style="color:#f97316;"></i>
+              <span>C</span>
+              <div class="skillBar">
+                <div style="width:95%;background:orange;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-laptop-code skillIcon" style="color: #f8fafc;"></i>
+              <span>C++</span>
+              <div class="skillBar">
+                <div style="width:95%;background:slateblue;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-cubes skillIcon" style="color:#3b82f6;"></i>
+              <span>OOPS</span>
+              <div class="skillBar">
+                <div style="width:80%;background:blue;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-microchip skillIcon" style="color:#9855f7;"></i>
+              <span>OS</span>
+              <div class="skillBar">
+                <div style="width: 80%;background:purple;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-database skillIcon" style="color:#ef4444;"></i>
+              <span>DBMS</span>
+              <div class="skillBar">
+                <div style="width:85%;background:red;"></div>
+              </div>
+            </div>
+
+            <div class="skillCard">
+              <i class="fab fa-database skillIcon" style="color:#22c65e;"></i>
+              <span>PostgreSQL</span>
+              <div class="skillBar">
+                <div style="width:80%;background:green;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+     <section class="contactSection" id="contact">
+      <div class="contactContainer">
+        <div class="contactHeader">
+          <h2 class="contactTitle">Get in<span>Touch</span></h2>
+          <div class="contactDivider"></div>
+          <p class="contactSubText">Drop your message below and I’ll respond ASAP</p>
+        </div>
+
+
+        <div class="contactcontant">
+          <!-- contact form -->
+           <form class="contactForm">
+            <div class="contactGrid">
+
+              <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name">
+              </div>
+
+              <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email">
+              </div>
+            </div>
+
+            <div>
+              <label for="subject">Subject</label>
+              <input type="text" id="subject">
+            </div>
+
+            <div>
+              <label for="message">Your Message</label>
+              <textarea name="" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+
+           </form>
+
+           <!-- contact info -->
+            <div class="contactInfo">
+              <div class="contactCard">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p>rajmakavana0329@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contactCard">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h3>Call Me</h3>
+                  <p>+91 7201954380</p>
+                </div>
+              </div>
+
+              <div class="contactCard">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Kalana,dhoraji,Rajkot,Gujarat,India-360410</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+     <section class="footer">
+
+      <div class="footerContainer">
+        <div class="footersocials">
+          <a href="https://x.com/rajmakavana1123?t=_f6a9v1EEHIUzhrrVTvqpA&s=08" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/Raj-Makavana" aria-label="Github"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/raj-makavana-baa78934a" aria-label="Linkedin"><i class="fab fa-Linkedin-in"></i></a>
+          <a href="https://www.instagram.com/_rajmakavana2311_/?igsh=MXZhbWd2a3c4M2cwYg%3D%3D#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="#home" class="footerTopLink">
+          Back to Top <i class="fab fa-arrow-up"></i>
+        </a>
+      </div>
+
+     </section>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
